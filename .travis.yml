@@ -12,10 +12,10 @@ script: # Every commands needed to run the test
 deploy:
   provider: elasticbeanstalk
   region: "eu-west-3"
-  app: "dq-admin-test" # Name application on Elastic beanstalk
-  env: "DqAdminTest-env" # Name environment on Elastic beanstalk
-  bucket_name: "dq-admin-test"
-  bucket_path: "cicd"
+  app: "dqtest" # Name application on Elastic beanstalk
+  env: "Dqtest-env" # Name environment on Elastic beanstalk
+  bucket_name: "elasticbeanstalk-eu-west-3-120100701306"
+  bucket_path: "dqtest"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
