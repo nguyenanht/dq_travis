@@ -15,7 +15,7 @@ deploy:
   app: "dqtest" # Name application on Elastic beanstalk
   env: "Dqtest-env" # Name environment on Elastic beanstalk
   bucket_name: "elasticbeanstalk-eu-west-3-120100701306"
-  bucket_path: "dqtest"
+  bucket_path: "dqtest2"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
